@@ -1,0 +1,82 @@
+body{
+  background-image: url('../images/background.gif');
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.header{
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background: #fff;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 30%;
+}
+.header img{
+  position: absolute;
+  left: 30px;
+  cursor: pointer;
+  top: 12px;
+}
+
+.content{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content img{
+  width: 400px;
+  height: 180px;
+}
+.title{
+  width: 28%;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid #bdbabb;
+  background: #fff;
+  text-align: left;
+  padding-left: 10px;
+  color: #bdbabb;
+}
+.describe,.cook{
+  width: 28%;
+  height: 180px;
+  background: #fff;
+  border: 1px solid #bdbabb;
+  padding-left: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+li{
+  color: #ababab;
+  line-height: 30px;
+}
+.cook{
+  width: 30%;
+  color: #ababab;
+  padding: 20px 40px;
+}
+.image{
+  position: relative;
+}
+.plus{
+  background: #a79ac0;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.plus:hover{
+  background: #ece4a2;
+}
